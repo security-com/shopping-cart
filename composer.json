@@ -1,14 +1,26 @@
 {
-    "name": "security-com/shopping-cart",
-    "description": "A light weight shopping cart package for Laravel",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "SecurityCom",
-            "email": "armanrcb@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "security-com/shopping-cart",
+  "description": "A light weight shopping cart package for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SecurityCom",
+      "email": "armanrcb@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "SecurityCom\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SecurityCom\\ShoppingCart\\ShoppingCartServiceProvider"
+      ]
+    }
+  }
 }
