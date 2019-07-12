@@ -1,0 +1,14 @@
+{
+    "name": "security-com/shopping-cart",
+    "description": "A light weight shopping cart package for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SecurityCom",
+            "email": "armanrcb@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
