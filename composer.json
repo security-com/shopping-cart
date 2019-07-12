@@ -13,7 +13,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "SecurityCom\\": "src/"
+      "SecurityCom\\ShoppingCart": "src/"
     }
   },
   "extra": {
@@ -22,7 +22,7 @@
         "SecurityCom\\ShoppingCart\\ShoppingCartServiceProvider"
       ],
       "aliases": {
-        "ShoppingCart": "SecurityCom\\ShoppingCart\\Facades\\ShoppingCartFacade"
+        "SecurityCom\\ShoppingCart": "SecurityCom\\ShoppingCart\\Facades\\ShoppingCartFacade"
       }
     }
   }
